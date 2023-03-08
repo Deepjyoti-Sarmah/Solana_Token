@@ -4,12 +4,12 @@ import { DataV2, createCreateMetadataAccountV2Instruction } from '@metaplex-foun
 import { bundlrStorage, findMetadataPda, keypairIdentity, Metaplex, UploadMetadataInput } from '@metaplex-foundation/js';
 import secret from './guideSecret.json';
 
-const endpoint = ""; //add your RPC endpoint
+const endpoint = "https://api.devnet.solana.com"; //add your RPC endpoint
 const solanaConnection = new Connection(endpoint);
 
 const MINT_CONFIG = {
-    numDecimals: 6,
-    numberTOkens: 1337
+    numDecimals: 9,
+    numberTOkens: 10000
 }
 
 const MY_TOKEN_METADATA: UploadMetadataInput = {
