@@ -16,7 +16,7 @@ const MY_TOKEN_METADATA: UploadMetadataInput = {
     name: "Deepjyoti Token",
     symbol: "DST",
     description: "Solana test Token by Deepjyoti",
-    image: "" //add public URL to image you'd like to use
+    image: "https://github.com/Deepjyoti-Sarmah/Solana_Token/blob/master/img/facepeprsonal.jpeg" //add public URL to image you'd like to use
 }
 
 const ON_CHAIN_METADATA = {

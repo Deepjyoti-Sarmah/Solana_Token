@@ -2,7 +2,7 @@ import { Keypair, LAMPORTS_PER_SOL, Connection } from "@solana/web3.js";
 import * as fs from 'fs';
 
 //STEP 1 - Connect to Solana Network
-const endpoint = 'https://api.devnet.solana.com'; //Replace with your RPC Endpoint
+const endpoint = 'https://api.devnet.solana.com'; //Replace with your RPC Endpoint 
 const solanaConnection = new Connection(endpoint);
 
 //STEP 2 - Generate a New Solana Wallet
